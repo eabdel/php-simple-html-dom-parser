@@ -16,10 +16,12 @@
         }
     ],
     "require": {
-        "php": ">=5.3.2"
+        "php": ">=5.3.2",
+	"ext-dom": "*",
+        "ext-libxml": "*",
+        "ext-simplexml": "*"
     },
     "autoload": {
         "psr-0": { "EAbdel\\PhpSimpleHtmlDom\\HtmlDomParser": "src/" }
-    },
-	"minimum-stability": "dev"
+    }
 }
